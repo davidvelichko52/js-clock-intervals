@@ -17,5 +17,5 @@ let clock = setInterval(function() {
     minuteDegrees = minuteDegrees + 360/60/60/60;
     hour.style.transform = "rotate(" + hourDegrees + "deg)";
     hourDegrees = hourDegrees + 360/60/60;
-}, 1);
+}, 1000);
 
